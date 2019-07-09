@@ -84,7 +84,13 @@ package.append(.package(url: "https://github.com/mxcl/Version.git", from: "2.0.0
 
 Carthage:
 
-> Waiting on: [@Carthage#1945](https://github.com/Carthage/Carthage/pull/1945).
+> The upstream of this repo is waiting on: [@Carthage#1945](https://github.com/Carthage/Carthage/pull/1945).
+
+This repo can be used with carthage by adding the following to your `Cartfile`:
+
+```
+github "ffittschen/Version"
+```
 
 ## Ranges
 
